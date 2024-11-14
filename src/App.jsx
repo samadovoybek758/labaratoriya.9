@@ -36,16 +36,16 @@ function App() {
   return (
     <div className="max-w-[600px] flex mx-auto mt-10 mb-10">
      
-      <div className="bg-red-500 w-1/2 h-[750px] flex items-end">
+      <div className="bg-gray-600 w-1/2 h-[750px] flex items-end">
         <div
-          className="w-20 h-20 bg-orange-500 mx-auto lift transition-transform duration-1000" 
+          className="w-20 h-20 bg-white mx-auto lift transition-transform duration-1000" 
           ref={boxRef}
           style={{ transition: 'transform 1.3s ease-in-out' }} 
         ></div>
       </div>
 
       
-      <div className="bg-blue-500 w-1/2 h-[750px] flex flex-col justify-between">
+      <div className="bg-green-900 w-1/2 h-[750px] flex flex-col justify-between">
         <div className='flex gap-2'>
           <div
             onClick={handleClick_7}
